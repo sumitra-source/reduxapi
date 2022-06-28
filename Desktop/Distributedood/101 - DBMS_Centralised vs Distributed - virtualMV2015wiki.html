@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>DBMS:Centralised vs Distributed - virtualMV2015wiki</title>
+<meta name="generator" content="MediaWiki 1.24.1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="virtualMV2015wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://www.virtualmv.com/wiki/api.php?action=rsd" />
+<link rel="alternate" hreflang="x-default" href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="virtualMV2015wiki Atom feed" href="/wiki/index.php?title=Special%3ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://www.virtualmv.com/wiki/load.php?debug=false&amp;lang=en&amp;modules=ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: mverhaart-mw15_:resourceloader:filter:minify-css:7:0f0a03a9bb4fed419b296f8911604fb8 */</style>
+<script src="http://www.virtualmv.com/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"DBMS:Centralised_vs_Distributed","wgTitle":"DBMS:Centralised vs Distributed","wgCurRevisionId":288,"wgRevisionId":288,"wgArticleId":25,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["DBMS","Database"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"DBMS:Centralised_vs_Distributed","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"preview":false,"previewDialog":false,"publish":false}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs274":false,"searchNs275":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: mverhaart-mw15_:resourceloader:filter:minify-js:7:2297dbf61d874010ec45c07016588985 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-DBMS_Centralised_vs_Distributed skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">DBMS:Centralised vs Distributed</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From virtualMV2015wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table style="font-family: menu,Arial; border: 1px solid #0000FF; background-color: #E6F2FF;-webkit-box-shadow: 3px 3px 5px #80FF80;width:100%">
+<tr>
+<td><span style="font-family: menu,Arial; border: 1px solid #0000FF; background-color: #E6F2FF;-webkit-box-shadow: 1px 1px 2px #80FF80;box-shadow: 1px 1px 2px #80FF80; -moz-border-radius: 3px; border-radius: 3px;">&#160;<a href="/wiki/index.php?title=Main_Page" title="Main Page">Home</a>&#160;</span>&#160;<a href="/wiki/index.php?title=Database_Management_Systems" title="Database Management Systems">DBMS</a> &lt;
+</td></tr></table>
+<table class="collapsible collapsed" style="border: 1px #aaa solid; background: #E6F2FF; float: right;-webkit-box-shadow: 3px 3px 5px #80FF80;">
+<tr>
+<th style="font-size: 1em;"> Table of contents
+</th></tr>
+<tr>
+<td> <div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#Objective_Data_and_database_administrator"><span class="tocnumber">1</span> <span class="toctext">Objective Data and database administrator</span></a></li>
+<li class="toclevel-1 tocsection-1"><a href="#Centralised"><span class="tocnumber">2</span> <span class="toctext">Centralised</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Examples"><span class="tocnumber">2.1</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Advantages"><span class="tocnumber">2.2</span> <span class="toctext">Advantages</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Disadvantages"><span class="tocnumber">2.3</span> <span class="toctext">Disadvantages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Distributed_database"><span class="tocnumber">3</span> <span class="toctext">Distributed database</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Examples_2"><span class="tocnumber">3.1</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Advantages_2"><span class="tocnumber">3.2</span> <span class="toctext">Advantages</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Disadvantages_2"><span class="tocnumber">3.3</span> <span class="toctext">Disadvantages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Review"><span class="tocnumber">4</span> <span class="toctext">Review</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Review_questions"><span class="tocnumber">4.1</span> <span class="toctext">Review questions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+</td></tr></table>
+<p>Large commercial databases may exist in two different Topologies.
+</p>
+<ul><li>Centralised - where the database is physically in one location and users typically use an Internet connection to access it. Banks (such as ANZ) tend to use centralised databases.</li>
+<li>Distributed - Where the database is in many locations often where you have a national or international company and customers tend to regularly interact with a local branch. For example: Google uses Big-Table a distributed DBMS as searching tends to be by users in a particular region of the world.</li></ul>
+<p>In both cases the database "looks" like one database.
+</p><p><br />
+</p>
+<table style="font-family: menu,Arial;border: 1px solid #808080; width: 96%; margin-right:auto;margin-left:auto;background-color: #F6F9ED;-webkit-box-shadow: 5px 5px 7px #999;">
+
+<tr valign="top">
+<td width="50pt"><a href="/wiki/index.php?title=File%3AIcon_Objective.png" class="image"><img alt="Icon Objective.png" src="/wiki/../2015uploads/wiki/6/67/Icon_Objective.png" width="48" height="48" /></a>
+</td>
+<td><h3 class="PutInTOC"><span class="mw-headline" id="Objective_Data_and_database_administrator">Objective Data and database administrator</span></h3><div id="LOBox">
+<p>By the end of this page you will be able to:
+</p>
+<ul><li>Describe the features, advantages and disadvantages of:
+<ul><li>Distributed Database, and</li>
+<li>Centralised</li></ul></li></ul>
+</div>
+</td></tr></table>
+<h2><span class="mw-headline" id="Centralised">Centralised</span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:508px;"><a href="/wiki/index.php?title=File%3A2010ANZ_OnlineBanking.png" class="image"><img alt="" src="/wiki/../2015uploads/wiki/f/fe/2010ANZ_OnlineBanking.png" width="506" height="319" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/index.php?title=File%3A2010ANZ_OnlineBanking.png" class="internal" title="Enlarge"></a></div>ANZ: Banking online</div></div></div>
+<ul><li>A single database maintained in one location.  </li>
+<li>Managed by a database administrator.   (usually )</li>
+<li>Access via a communications network
+<ul><li>LAN</li>
+<li>WAN</li>
+<li>Terminals provide distributed access</li></ul></li></ul>
+<h3><span class="mw-headline" id="Examples">Examples</span></h3>
+<ul><li>Some major banks do all their processing on a mainframe, in some cases in a different country. 
+<ul><li>Clients may use several branches, and online banking for transactions.</li></ul></li>
+<li>Airline reservation systems need to be centralised to avoid double bookings. </li>
+<li>Inland Revenue in New Zealand is countrywide </li>
+<li>In NZ Police and ambulance calls are sent to a central call center.</li></ul>
+<table class="prettytable collapsible collapsed" style="width:34em;font-family: menu,Arial; border: 1px solid #0000FF; background-color: #E6F2FF;">
+<tr>
+<th>Question: For a National call centre (NZ Police/Ambulance) - What are potential Problems?
+</th></tr>
+<tr>
+<td>
+<ul><li>In an emergency making sure you ask what town/city? </li>
+<li>Missing local knowledge - e.g. Next to lime works</li></ul>
+</td></tr></table>
+<h3><span class="mw-headline" id="Advantages">Advantages</span></h3>
+<ul><li>Increased reliability and availability	</li>
+<li>Modular (incremental) growth</li>
+<li>Lower communication costs</li>
+<li>Faster Response	</li></ul>
+<h3><span class="mw-headline" id="Disadvantages">Disadvantages</span></h3>
+<ul><li>Software cost and complexity</li>
+<li>Processing overheads</li>
+<li>Data integrity</li></ul>
+<h2><span class="mw-headline" id="Distributed_database">Distributed database</span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:502px;"><a href="/wiki/index.php?title=File%3A2010GoogleSearch.png" class="image"><img alt="" src="/wiki/../2015uploads/wiki/a/a6/2010GoogleSearch.png" width="500" height="253" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/index.php?title=File%3A2010GoogleSearch.png" class="internal" title="Enlarge"></a></div>Google search: Pacman at http//www.google.com/pacman</div></div></div>
+<p>A single logical database that is spread physically across computers in multiple locations that are connected by a data communications link.
+</p>
+<ul><li>Most processing is local</li>
+<li>Need for local ownership of data</li>
+<li>Data sharing require</li></ul>
+<p>Note that users think they are working with a single corporate database
+</p>
+<h3><span class="mw-headline" id="Examples_2">Examples</span></h3>
+<ul><li>Chain Stores like the MSD Spears (50% locally owned)</li>
+<li>Google: Use a DBMS called Bigtable. (Note it is not a Relational Database).("What database does Google use?", 2010<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>; Chang,F., et al.,2006<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>)</li></ul>
+<h3><span class="mw-headline" id="Advantages_2">Advantages</span></h3>
+<ul><li>Minimise communications</li>
+<li>Costs</li>
+<li>Local control</li></ul>
+<h3><span class="mw-headline" id="Disadvantages_2">Disadvantages</span></h3>
+<ul><li>Adds to complexity and cost</li>
+<li>Processing overheads</li>
+<li>Data Integrity</li></ul>
+<h2><span class="mw-headline" id="Review">Review</span></h2>
+<table class="wikitable collapsible" style="font-family: menu,Arial;border: 1px solid #808080; width: 96%; margin-right:auto;margin-left:auto;background-color: #F6F9ED;-webkit-box-shadow: 5px 5px 7px #999;">
+
+<tr valign="top">
+<td width="50pt"><a href="/wiki/index.php?title=File%3AIcon_Questions.png" class="image"><img alt="Icon Questions.png" src="/wiki/../2015uploads/wiki/a/ab/Icon_Questions.png" width="48" height="49" /></a>
+</td>
+<td><h3 class="PutInTOC"><span class="mw-headline" id="Review_questions">Review questions</span></h3>
+<div id="LOBox">
+<ol><li>Distinguish between a distributed and centralized database when would you each of these?</li>
+<li>Describe two features of a Centralised database, and give an example.</li>
+<li>Describe two features of a Distributed database, and give an example.</li>
+<li>List advantages and disadvantages of a Centralised Database</li>
+<li>List advantages and disadvantages of a Distributed Database</li></ol>
+</div>
+</td></tr></table>
+<h2><span class="mw-headline" id="References"><a href="/wiki/index.php?title=File%3AIcon_References.png" class="image"><img alt="Icon References.png" src="/wiki/../2015uploads/wiki/9/91/Icon_References.png" width="48" height="48" /></a> References</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">What database does Google use? (2010) In StackOverflow wiki. Retrieved September 19, 2010 from <a rel="nofollow" class="external free" href="http://stackoverflow.com/questions/362956/what-database-does-google-use">http://stackoverflow.com/questions/362956/what-database-does-google-use</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">Chang,F., Dean, J., Ghemawat, S., Hsieh, WC.,  Wallach, D.A., Burrows,M., Chandra, T., Fikes, A., Gruber, R.E.  (2006) Bigtable: A Distributed Storage System for Structured Data. Retrieved September 19, 2010 from  <a rel="nofollow" class="external free" href="http://labs.google.com/papers/bigtable-osdi06.pdf">http://labs.google.com/papers/bigtable-osdi06.pdf</a></span>
+</li>
+</ol>
+<p><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.genre=article&amp;rft.atitle=DBMS%3ACentralised+vs+Distributed&amp;rft.title=In+virtualMV%27s+%28+Michael+Verhaart+%29+wiki.&amp;rft.stitle=virtualMv+wiki&amp;rft.date=2017&amp;rft_id=http%3A%2F%2Fwww.virtualmv.com%2Fwiki%2Findex.php%3Ftitle%3DDBMS%253ACentralised_vs_Distributed">
+</span></p>
+<div style="font-family: menu,Arial; border: 1px solid #0000FF;font-size: x-small; background-color: #E6F2FF;-webkit-box-shadow: 3px 3px 5px #80FF80;">DBMS:Centralised vs Distributed. (2017). In <i>virtualMV's ( Michael Verhaart ) wiki</i>. Retrieved August 4, 2017, from <a rel="nofollow" class="external free" href="http://www.virtualmv.com/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed">http://www.virtualmv.com/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed</a> &#160;&#160;&#160;(<span style="color: #FF0000;">z</span>otero)</div>
+
+<!-- 
+NewPP limit report
+Real time usage: 0.156 seconds
+Preprocessor visited node count: 140/1000000
+Preprocessor generated node count: 492/1000000
+Post‐expand include size: 3312/2097152 bytes
+Template argument size: 616/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mverhaart-mw15_:pcache:idhash:25-0!*!0!!en!5!* and timestamp 20170804142003 and revision id 288
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://www.virtualmv.com/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;oldid=288">http://www.virtualmv.com/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;oldid=288</a>"					</div>
+													<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php?title=Special%3ACategories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php?title=Category%3ADBMS" title="Category:DBMS">DBMS</a></li><li><a href="/wiki/index.php?title=Category%3ADatabase" title="Category:Database">Database</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/wiki/index.php?title=Special%3AUserLogin&amp;returnto=DBMS%3ACentralised+vs+Distributed" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/wiki/index.php?title=Talk%3ADBMS%3ACentralised_vs_Distributed&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/wiki/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search virtualMV2015wiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(/wiki/resources/assets/2015vMvWiki.png);" href="/wiki/index.php?title=Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="/wiki/index.php?title=Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Categories"><a href="/wiki/index.php?title=Special%3ACategories">Categories</a></li>
+													<li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>
+													<li id="n-recentchanges"><a href="/wiki/index.php?title=Special%3ARecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+													<li id="n-randompage"><a href="/wiki/index.php?title=Special%3ARandom" title="Load a random page [x]" accesskey="x">Random page</a></li>
+													<li id="n-currentevents"><a href="/wiki/index.php?title=VirtualMV2015wiki%3ACurrent_events" title="Find background information on current events">Current events</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-virtualMV' aria-labelledby='p-virtualMV-label'>
+			<h3 id='p-virtualMV-label'>virtualMV</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Quick-wiki-tips"><a href="/wiki/index.php?title=Vmv%3AQuicktips">Quick wiki tips</a></li>
+													<li id="n-Guidelines"><a href="/wiki/index.php?title=Vmv%3AGuidelines">Guidelines</a></li>
+													<li id="n-Cheat-sheet"><a href="/wiki/index.php?title=Help%3AContents">Cheat sheet</a></li>
+													<li id="n-Blog"><a href="http://virtualmv.wordpress.com/" rel="nofollow">Blog</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="/wiki/index.php?title=Special%3AWhatLinksHere/DBMS%3ACentralised_vs_Distributed" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="/wiki/index.php?title=Special%3ARecentChangesLinked/DBMS%3ACentralised_vs_Distributed" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="/wiki/index.php?title=Special%3ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;oldid=288" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="/wiki/index.php?title=DBMS%3ACentralised_vs_Distributed&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 14 January 2015, at 17:06.</li>
+											<li id="footer-info-viewcount">This page has been accessed 30,313 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/index.php?title=VirtualMV2015wiki%3APrivacy_policy" title="VirtualMV2015wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/index.php?title=VirtualMV2015wiki%3AAbout" title="VirtualMV2015wiki:About">About virtualMV2015wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/index.php?title=VirtualMV2015wiki%3AGeneral_disclaimer" title="VirtualMV2015wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="/resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution-ShareAlike" width="88" height="31" /></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="//www.mediawiki.org/"><img src="/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":530});
+}</script>
+	</body>
+</html>
+	
